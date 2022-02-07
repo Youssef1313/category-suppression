@@ -1,0 +1,7 @@
+[*.cs]
+
+# CA1014: Mark assemblies with CLSCompliant
+dotnet_diagnostic.CA1014.severity = none
+
+# CA1200 is still reported.
+dotnet_analyzer_diagnostic.category-Documentation.severity = none
